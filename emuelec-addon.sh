@@ -646,7 +646,6 @@ n64 \
 openbor \
 psx \
 psp \
-scummvm \
 sega32x \
 segacd \
 dreamcast \
