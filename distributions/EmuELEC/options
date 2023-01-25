@@ -289,6 +289,7 @@ puae \
 px68k \
 reminiscence \
 sameboy \
+scummvm \
 snes9x \
 snes9x2002 \
 snes9x2005_plus \
@@ -377,6 +378,7 @@ quicknes"
 "Nintendo - Wii.lpl;"\
 "Nintendo - Pokemon Mini (PokeMini).lpl;"\
 "Quake.lpl;"\
+"ScummVM.lpl;"\
 "Sega - 32X.lpl;"\
 "Sega - Dreamcast.lpl;"\
 "Sega - Game Gear.lpl;"\
@@ -448,6 +450,7 @@ quicknes"
 "/tmp/cores/dolphin_libretro.so;"\
 "/tmp/cores/pokemini_libretro.so;"\
 "/tmp/cores/tyrquake_libretro.so;"\
+"/tmp/cores/scummvm_libretro.so;"\
 "/tmp/cores/picodrive_libretro.so;"\
 "/tmp/cores/flycast_libretro.so;"\
 "/tmp/cores/genesis_plus_gx_libretro.so;"\

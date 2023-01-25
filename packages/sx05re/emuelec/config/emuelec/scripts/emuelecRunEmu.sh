@@ -196,6 +196,20 @@ case ${PLATFORM} in
 		RUNTHIS='${TBASH} /usr/bin/residualvm.sh sa "${ROMNAME}"'
 		fi
 		;;
+	"scummvm")
+		if [[ "${ROMNAME}" == *".sh" ]]; then
+		set_kill_keys "fbterm"
+		RUNTHIS='${TBASH} /emuelec/scripts/fbterm.sh "${ROMNAME}"'
+		EMUELECLOG="$LOGSDIR/ee_script.log"
+		else
+		if [ "$EMU" = "SCUMMVMSA" ]; then
+		set_kill_keys "scummvm"
+		RUNTHIS='${TBASH} /usr/bin/scummvm.start sa "${ROMNAME}"'
+		else
+		RUNTHIS='${TBASH} /usr/bin/scummvm.start libretro'
+		fi
+		fi
+		;;
 	"daphne")
 		if [ "$EMU" = "HYPSEUS" ]; then
 		set_kill_keys "hypseus"

@@ -138,6 +138,9 @@ case $1 in
 	RUNTHIS='${TBASH} /usr/bin/amiberry.start "${ROMNAME}"'
 	fi
 	;;
+"SCUMMVM")
+	RUNTHIS='/usr/bin/retroarch $VERBOSE -L /tmp/cores/scummvm_libretro.so --config ${RATMPCONF} "${ROMNAME}"'
+	;;
 "DOSBOX")
     if [ "$EMU" = "DOSBOXSDL2" ]; then
     set_kill_keys "dosbox"
