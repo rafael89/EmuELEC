@@ -3,6 +3,7 @@ EmuELEC CHANGELOG
 
 # 3.9.1-beta
 
+* Added EEROMS from v4.0
 * Fix build issues (ScummVM and PCRE2) (#1)
 
 
