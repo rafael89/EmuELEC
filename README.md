@@ -1,8 +1,8 @@
-# EmuELEC  
+# EmuELEC
 ### ⚠️**IMPORTANT**⚠️
 #### This fork is a continuation of EmuELEC v3.9, the last one released with 32-bit support.
----
 
+---
 [![GPL-2.0 Licensed](https://shields.io/badge/license-GPL2-blue)](https://github.com/rafael89/EmuELEC/blob/main/licenses/GPL2.txt)
 [![GitHub Release](https://img.shields.io/github/release/rafael89/EmuELEC.svg)](https://github.com/rafael89/EmuELEC/releases/latest)
 ---
@@ -32,14 +32,6 @@ PROJECT=Amlogic ARCH=arm DISTRO=EmuELEC make image
 ### Submitting patches
 Please create a pull request with the changes you made in the dev branch and make sure to include a brief description of what you changed and why you did it.
 
-## Get in touch
-If you have a question, suggestions for new features, or need help configuring or installing EmuELEC, please visit [our forum](https://emuelec.discourse.group/). You may also want to visit our [wiki](https://github.com/EmuELEC/EmuELEC/wiki) or join our [Discord](https://discord.gg/cbgtJTu).
-
-**EmuELEC DOES NOT INCLUDE KODI**
-
-Please note, this is mainly a personal project, I can't guarantee it will work with your box. I've spent many hours tweaking many things and making sure everything works, but I can't test everything and some things may not work yet. Also, be aware of hardware limitations and don't expect everything to run at 60FPS (especially N64, PSP, and Reicast). I can't guarantee that changes will be incorporated to fit your specific needs, but I welcome pull requests, help testing other boxes, and fixing problems in general.  
-I'm working on this project in my spare time, I'm not making any money from it, so it will take me a while to test all the changes properly, but I'll do my best to help you fix any problems you might have on other boxes, in my spare time.
-
 ## License
 
 EmuELEC is based on CoreELEC, which in turn is licensed under the GPLv2 (and GPLv2-or-later). All original files created by the EmuELEC team are licensed as GPLv2-or-later and marked as such.
@@ -50,7 +42,7 @@ Also note the license section from the README from the CoreELEC team, which has 
 
 As EmuELEC includes code from many upstream projects it includes many copyright owners. EmuELEC makes NO claim of copyright on any upstream code. Patches to upstream code have the same license as the upstream project, unless specified otherwise. For a complete copyright list please checkout the source code to examine license headers. Unless expressly stated otherwise all code submitted to the EmuELEC project (in any form) is licensed under GPLv2-or-later. You are absolutely free to retain copyright. To retain copyright simply add a copyright header to each submitted code page. If you submit code that is not your own work it is your responsibility to place a header stating the copyright.
 
-### Branding
+## Branding
 
 All EmuELEC related logos, videos, images and branding in general are the sole property of EmuELEC. They are all copyrighted by the EmuELEC team and may not be included in any commercial application without proper permission (yes, that includes EmuELEC bundled with ROMS for donations!).
 
