@@ -1,10 +1,10 @@
 # EmuELEC
-### ⚠️**IMPORTANT**⚠️
-#### This fork is a continuation of EmuELEC v3.9, the last one released with 32-bit support.
 
----
 [![GPL-2.0 Licensed](https://shields.io/badge/license-GPL2-blue)](https://github.com/rafael89/EmuELEC/blob/main/licenses/GPL2.txt)
 [![GitHub Release](https://img.shields.io/github/release/rafael89/EmuELEC.svg)](https://github.com/rafael89/EmuELEC/releases/latest)
+
+### ⚠️**IMPORTANT**⚠️
+#### This fork is a continuation of EmuELEC v3.9, the last one released with 32-bit support.
 ---
 
 ## Development
